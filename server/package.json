@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsnd --exit-child --transpile-only src/main.ts"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@apollo/server-plugin-landing-page-graphql-playground": "^4.0.0",
+    "@fastify/cookie": "^8.3.0",
+    "@fastify/jwt": "^6.3.2",
+    "@prisma/client": "^4.4.0",
+    "apollo-server-core": "^3.10.3",
+    "apollo-server-fastify": "^3.10.3",
+    "argon2": "^0.30.1",
+    "class-validator": "^0.13.2",
+    "fastify": "^3.0.0",
+    "graphql": "^15.3.0",
+    "prisma": "^4.4.0",
+    "reflect-metadata": "^0.1.13",
+    "subscriptions-transport-ws": "^0.11.0",
+    "type-graphql": "^1.1.1"
+  }
+}
