@@ -770,6 +770,11 @@ eventemitter3@^3.1.0:
   resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-3.1.2.tgz#2d3d48f9c346698fce83a85d7d664e98535df6e7"
   integrity sha512-tvtQIeLVHjDkJYnzf2dgVMxfuSGJeM/7UCG17TT4EumTfNtF+0nebF/4zWOIkCreAbtNqhGEboB6BWrwqNaw4Q==
 
+fast-content-type-parse@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/fast-content-type-parse/-/fast-content-type-parse-1.0.0.tgz#cddce00df7d7efb3727d375a598e4904bfcb751c"
+  integrity sha512-Xbc4XcysUXcsP5aHUU7Nq3OwvHq97C+WnbkeIefpeYLX+ryzFJlU6OStFJhs6Ol0LkUGpcK+wL0JwfM+FCU5IA==
+
 fast-decode-uri-component@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/fast-decode-uri-component/-/fast-decode-uri-component-1.0.1.tgz#46f8b6c22b30ff7a81357d4f59abfae938202543"
@@ -826,15 +831,16 @@ fastify-plugin@^3.0.0, fastify-plugin@^3.0.1:
   resolved "https://registry.yarnpkg.com/fastify-plugin/-/fastify-plugin-3.0.1.tgz#79e84c29f401020f38b524f59f2402103fd21ed2"
   integrity sha512-qKcDXmuZadJqdTm6vlCqioEbyewF60b/0LOFCcYN1B6BIZGlYJumWWOYs70SFYLDAH4YqdE1cxH/RKMG7rFxgA==
 
-fastify@^3.0.0:
-  version "3.29.3"
-  resolved "https://registry.yarnpkg.com/fastify/-/fastify-3.29.3.tgz#bed75e187f234dd292bbbf1d382f40545d0e9095"
-  integrity sha512-PA5mGkVnAnhysmyAnXMN9gdOlcfIxyGsfj9C7/a3sSfe5mC38euEGRLEB0T7ygbi7TIZ9yIZ/FLiERpwZeWriA==
+fastify@^3.29.5:
+  version "3.29.5"
+  resolved "https://registry.yarnpkg.com/fastify/-/fastify-3.29.5.tgz#a219af4223c6071eef46f3b98aee3f39f47a8c88"
+  integrity sha512-FBDgb1gkenZxxh4sTD6AdI6mFnZnsgckpjIXzIvfLSYCa4isfQeD8QWGPib63dxq6btnY0l1j8I0xYhMvUb+sw==
   dependencies:
     "@fastify/ajv-compiler" "^1.0.0"
     "@fastify/error" "^2.0.0"
     abstract-logging "^2.0.0"
     avvio "^7.1.2"
+    fast-content-type-parse "^1.0.0"
     fast-json-stringify "^2.5.2"
     find-my-way "^4.5.0"
     flatstr "^1.0.12"
